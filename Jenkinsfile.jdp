@@ -17,8 +17,7 @@ pipeline {
                 sh '/opt/maven/bin/mvn sonar:sonar'
 }
 }
-            }
-        } 
+            } 
                 stage('Deploy') {
             steps {
                 echo '"Deploy successfully"'
